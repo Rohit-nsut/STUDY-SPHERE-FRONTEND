@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import studyNotionLogo from "../../assets/Logo/Logo-Full-Light.png";
+// import studyNotionLogo from "../../assets/Logo/Logo-Full-Light.png";
 import { NavbarLinks } from '../../data/navbar-links';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -66,10 +66,10 @@ const Navbar = () => {
     <div className={`flex border-b-[1px] z-10  ${location.pathname !== "/" ? `bg-richblack-800` : `bg-richblack-900`} border-b-richblack-700 h-14 items-center justify-center`}>
 
         <div className='w-10/12 flex justify-between items-center '>
-            
-            <Link to={"/"} >
-                <img src={studyNotionLogo} alt="studyNotionLogo" width={170} height={35} loading='lazy' />
-            </Link>
+             
+            <Link to={"/"} className='mr-10'>
+                <img src={"https://thestudysphere.com/assets/img/logo.png"} alt="studyNotionLogo" width={130} height={5} loading='lazy' />
+            </Link> 
 
 
             {/* page Links */}

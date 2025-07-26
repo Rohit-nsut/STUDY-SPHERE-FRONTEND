@@ -1,7 +1,7 @@
 import React from 'react'
 import { FooterLink2 } from '../../data/footer-links';
 import { Link } from 'react-router-dom';
-import logo from "../../assets/Logo/Logo-Full-Light.png";
+// import logo from "../../assets/Logo/Logo-Full-Light.png";
 import { FaFacebook, FaTwitter, FaGoogle, FaYoutube } from "react-icons/fa";
 
 const FooterSection = () => {
@@ -14,10 +14,10 @@ const FooterSection = () => {
                 <div className='flex gap-16 '>
 
                     <div className='flex flex-col gap-3'>
-                        <Link to={'/Home'}><img src={logo} alt='StudyNotion Logo'/></Link>
+                        <Link to={'/Home'}><img src={"https://thestudysphere.com/assets/img/logo.png"} width={200} height={200} alt='StudyNotion Logo'/></Link>
                         <h1 className='text-richblack-50 text-lg'>Company</h1>
                         <div className='text-richblack-400 flex flex-col gap-3'>
-                            <p>About</p>
+                            <p>About</p> 
                             <p>Careers</p>
                             <p>Affiliates</p>
                         </div>
@@ -101,7 +101,7 @@ const FooterSection = () => {
             </div>
 
             <div>
-                <p>Made with ❤️ ROHIT © 2025 Studynotion</p>
+                <p>Made with ❤️ ROHIT © 2025 StudySphere</p>
             </div>
 
         </div>
