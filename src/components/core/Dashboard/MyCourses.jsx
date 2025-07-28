@@ -129,7 +129,7 @@ const MyCourses = () => {
 
                                         {/* Time-duration */}
                                         <div className='text-richblack-200 font-semibold w-[30%] justify-between flex items-start'>
-                                            <p> {course?.duration} </p>
+                                            <p> 2hr 30min </p>
                                             <p>$ {course?.price} </p>
                                             <div className='flex  gap-2 text-xl w-20  justify-end'>
                                                 <MdEdit onClick={ () => navigate(`/dashboard/edit-course/${course?._id}`)} className=' cursor-pointer' />
