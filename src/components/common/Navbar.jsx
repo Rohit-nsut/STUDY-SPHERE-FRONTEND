@@ -93,7 +93,7 @@ const Navbar = () => {
                                                     {link.name}
                                                 </Link>
                                             ))) :
-                                            <div className='text-center'>Loading...</div>
+                                            <div className='font-bold text rounded-md text-center'>Loading...</div>
                                         }
 
                                     </div>
