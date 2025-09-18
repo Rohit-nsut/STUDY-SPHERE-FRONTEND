@@ -81,9 +81,9 @@ const Navbar = () => {
                                 link.title === "Catalog" ? (<div className=' relative flex items-center group cursor-pointer gap-[5px]'>
                                     <p>{link.title}</p> <IoIosArrowDown className='text-xl font-mono'/>
 
-                                    <div className=' invisible flex flex-col py-4 px-3 text-black bg-richblack-5 rounded-md transition-all duration-200 group-hover:visible  opacity-0 cursor-pointer absolute group-hover:opacity-100 lg:w-[300px] top-10 -left-[104px]  font-medium  gap-2 uppercase'>
+                                    <div className=' invisible flex flex-col py-5 px-3 text-black bg-richblack-5 rounded-md transition-all duration-200 group-hover:visible  opacity-0 cursor-pointer absolute group-hover:opacity-100 lg:w-[300px] top-10 -left-[104px]  font-medium  gap-2 uppercase'>
 
-                                        <div className='bg-richblack-5 absolute w-7 h-7 rotate-45 lg:translate-x-36 lg:translate-y-[-28px] rounded-md'>
+                                        <div className='bg-richblack-5 absolute w-10 h-7 rotate-45 lg:translate-x-[146px] lg:translate-y-[-27px] rounded-md'>
 
                                         </div>
 
