@@ -83,7 +83,7 @@ const Navbar = () => {
 
                                     <div className=' invisible flex flex-col py-5 px-4 text-black bg-richblack-5 rounded-md transition-all duration-200 group-hover:visible  opacity-0 cursor-pointer absolute group-hover:opacity-100 lg:w-[300px] top-10 -left-[104px]  font-medium  gap-2 uppercase'>
 
-                                        <div className='bg-richblack-5 absolute w-6 h-6 rotate-45 lg:translate-x-[151px] lg:translate-y-[-30px] rounded-md'>
+                                        <div className='bg-richblack-5 absolute w-6 h-6 rotate-45 lg:translate-x-[147px] lg:translate-y-[-30px] rounded-md'>
 
                                         </div>
 
